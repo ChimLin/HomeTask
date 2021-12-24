@@ -1,13 +1,3 @@
-file = open("test.txt", "w")
-print(type(file))
-file.write("Russia\nUkraine\nKazahstan")
-
-file.close()
-
-
-with open("test.txt", "a") as file:
-    file.writelines("Katmandu")
-
 #read file
 
 with open("test.txt", "r") as file:
