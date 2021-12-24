@@ -14,7 +14,6 @@ with open("test.txt", "r") as file:
     for line in file:
         print(line)
 
-
 matrix = [
     [2,3,4],
     [5,6,7],
