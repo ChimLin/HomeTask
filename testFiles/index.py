@@ -87,7 +87,17 @@ with open('matrix1.txt','r') as file:
     for lst in sum_new_rows:
         sum_new_columns = sum_lists(lst, sum_new_columns)
 
+def print_matrix():
+    with open('matrix1.txt', 'r') as file:
+        for line in file:
+            mas = line.split(' ')
+            for item in mas:
+                if item != '\n':
+                    print(int(item), end=' ')
+            print()
+
 add_new_numbers_rows(sum_new_rows)
 add_sum_column_rows(sum_new_columns)
+print_matrix()
 
 
