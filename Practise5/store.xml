@@ -1,0 +1,10 @@
+<store>
+    <book price="1000">
+       <name>Основы питона</name>
+    </book>
+    <book price="2000">
+       Основы джава
+    </book>   <book price="3000">
+       Основы си
+    </book>
+</store>

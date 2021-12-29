@@ -1,0 +1,6 @@
+<root>
+    <doc>
+        <filed1 name="test">value1</filed1>
+        <filed2 name="test2">value2</filed2>
+    </doc>
+</root>

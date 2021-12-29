@@ -1,0 +1,12 @@
+<root>
+    <goods>
+        <good id="1">
+            <title>Audi</title>
+            <price>1000</price>
+        </good>
+        <good id="2">
+            <title>Audi</title>
+            <price>1000</price>
+        </good>
+    </goods>
+</root>
