@@ -15,35 +15,33 @@ class WorkerBase (ABC):
 
 class Programmer(WorkerBase):
 
-    __constant_coefficient = 4
+
 
     def __init__(self, occupation, base_rate):
         super().__init__(occupation, base_rate)
 
     def calculate_salary(self):
-        print(f"Заработная плата {self.occupation}: {self.__constant_coefficient * self.base_rate} у.e. \n")
+        print(f"Заработная плата {self.occupation}: {4 * self.base_rate} у.e. \n")
 
 
 class Economist(WorkerBase):
 
-    __constant_coefficient = 2
 
     def __init__(self, occupation, base_rate):
         super().__init__(occupation, base_rate)
 
     def calculate_salary(self):
-        print(f"Заработная плата {self.occupation}: {self.__constant_coefficient * self.base_rate} у.e. \n")
+        print(f"Заработная плата {self.occupation}: {2 * self.base_rate} у.e. \n")
 
 
 class Manager(WorkerBase):
 
-    __constant_coefficient = 10
 
     def __init__(self, occupation, base_rate):
         super().__init__(occupation, base_rate)
 
     def calculate_salary(self):
-        print(f"Заработная плата {self.occupation}: {self.__constant_coefficient * self.base_rate} у.e. \n")
+        print(f"Заработная плата {self.occupation}: {10 * self.base_rate} у.e. \n")
 
 
 programmer = Programmer("Programmer", 2000)
